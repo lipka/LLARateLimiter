@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33CB7AB71830C71000CFE2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7AB61830C71000CFE2EF /* Foundation.framework */; };
+		33CB7AB91830C71000CFE2EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7AB81830C71000CFE2EF /* CoreGraphics.framework */; };
+		33CB7ABB1830C71000CFE2EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7ABA1830C71000CFE2EF /* UIKit.framework */; };
+		33CB7AD01830C71000CFE2EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7ACF1830C71000CFE2EF /* XCTest.framework */; };
+		33CB7AD11830C71000CFE2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7AB61830C71000CFE2EF /* Foundation.framework */; };
+		33CB7AD21830C71000CFE2EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7ABA1830C71000CFE2EF /* UIKit.framework */; };
+		33CB7AF41830C7EB00CFE2EF /* LLAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AE81830C7EB00CFE2EF /* LLAAppDelegate.m */; };
+		33CB7AF51830C7EB00CFE2EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AEB1830C7EB00CFE2EF /* main.m */; };
+		33CB7AF71830C7EB00CFE2EF /* LLARateLimiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AF01830C7EB00CFE2EF /* LLARateLimiter.m */; };
+		33CB7AFA1830C89A00CFE2EF /* LLARateLimiterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AF31830C7EB00CFE2EF /* LLARateLimiterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33CB7AD31830C71000CFE2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CB7AAB1830C71000CFE2EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CB7AB21830C71000CFE2EF;
+			remoteInfo = LLARateLimiter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33CB7AB31830C71000CFE2EF /* LLARateLimiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLARateLimiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CB7AB61830C71000CFE2EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33CB7AB81830C71000CFE2EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33CB7ABA1830C71000CFE2EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33CB7ACE1830C71000CFE2EF /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CB7ACF1830C71000CFE2EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33CB7AE71830C7EB00CFE2EF /* LLAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAAppDelegate.h; sourceTree = "<group>"; };
+		33CB7AE81830C7EB00CFE2EF /* LLAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAAppDelegate.m; sourceTree = "<group>"; };
+		33CB7AEA1830C7EB00CFE2EF /* LLARateLimiter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLARateLimiter-Prefix.pch"; sourceTree = "<group>"; };
+		33CB7AEB1830C7EB00CFE2EF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33CB7AED1830C7EB00CFE2EF /* LLARateLimiter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LLARateLimiter-Info.plist"; sourceTree = "<group>"; };
+		33CB7AEF1830C7EB00CFE2EF /* LLARateLimiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLARateLimiter.h; sourceTree = "<group>"; };
+		33CB7AF01830C7EB00CFE2EF /* LLARateLimiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARateLimiter.m; sourceTree = "<group>"; };
+		33CB7AF21830C7EB00CFE2EF /* LLARateLimiterTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LLARateLimiterTests-Info.plist"; sourceTree = "<group>"; };
+		33CB7AF31830C7EB00CFE2EF /* LLARateLimiterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARateLimiterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CB7AB01830C71000CFE2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CB7AB91830C71000CFE2EF /* CoreGraphics.framework in Frameworks */,
+				33CB7ABB1830C71000CFE2EF /* UIKit.framework in Frameworks */,
+				33CB7AB71830C71000CFE2EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CB7ACB1830C71000CFE2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CB7AD01830C71000CFE2EF /* XCTest.framework in Frameworks */,
+				33CB7AD21830C71000CFE2EF /* UIKit.framework in Frameworks */,
+				33CB7AD11830C71000CFE2EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CB7AAA1830C70F00CFE2EF = {
+			isa = PBXGroup;
+			children = (
+				33CB7AEE1830C7EB00CFE2EF /* LLARateLimiter */,
+				33CB7AE51830C7EB00CFE2EF /* Example */,
+				33CB7AF11830C7EB00CFE2EF /* Tests */,
+				33CB7AB51830C71000CFE2EF /* Frameworks */,
+				33CB7AB41830C71000CFE2EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33CB7AB41830C71000CFE2EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AB31830C71000CFE2EF /* LLARateLimiter.app */,
+				33CB7ACE1830C71000CFE2EF /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CB7AB51830C71000CFE2EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AB61830C71000CFE2EF /* Foundation.framework */,
+				33CB7AB81830C71000CFE2EF /* CoreGraphics.framework */,
+				33CB7ABA1830C71000CFE2EF /* UIKit.framework */,
+				33CB7ACF1830C71000CFE2EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33CB7AE51830C7EB00CFE2EF /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AE61830C7EB00CFE2EF /* Classes */,
+				33CB7AE91830C7EB00CFE2EF /* Other Sources */,
+				33CB7AEC1830C7EB00CFE2EF /* Resources */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		33CB7AE61830C7EB00CFE2EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AE71830C7EB00CFE2EF /* LLAAppDelegate.h */,
+				33CB7AE81830C7EB00CFE2EF /* LLAAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		33CB7AE91830C7EB00CFE2EF /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AEA1830C7EB00CFE2EF /* LLARateLimiter-Prefix.pch */,
+				33CB7AEB1830C7EB00CFE2EF /* main.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		33CB7AEC1830C7EB00CFE2EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AED1830C7EB00CFE2EF /* LLARateLimiter-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33CB7AEE1830C7EB00CFE2EF /* LLARateLimiter */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AEF1830C7EB00CFE2EF /* LLARateLimiter.h */,
+				33CB7AF01830C7EB00CFE2EF /* LLARateLimiter.m */,
+			);
+			path = LLARateLimiter;
+			sourceTree = "<group>";
+		};
+		33CB7AF11830C7EB00CFE2EF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33CB7AF21830C7EB00CFE2EF /* LLARateLimiterTests-Info.plist */,
+				33CB7AF31830C7EB00CFE2EF /* LLARateLimiterTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CB7AB21830C71000CFE2EF /* LLARateLimiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CB7ADF1830C71000CFE2EF /* Build configuration list for PBXNativeTarget "LLARateLimiter" */;
+			buildPhases = (
+				33CB7AAF1830C71000CFE2EF /* Sources */,
+				33CB7AB01830C71000CFE2EF /* Frameworks */,
+				33CB7AB11830C71000CFE2EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLARateLimiter;
+			productName = LLARateLimiter;
+			productReference = 33CB7AB31830C71000CFE2EF /* LLARateLimiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33CB7ACD1830C71000CFE2EF /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CB7AE21830C71000CFE2EF /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				33CB7ACA1830C71000CFE2EF /* Sources */,
+				33CB7ACB1830C71000CFE2EF /* Frameworks */,
+				33CB7ACC1830C71000CFE2EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CB7AD41830C71000CFE2EF /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = LLARateLimiterTests;
+			productReference = 33CB7ACE1830C71000CFE2EF /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CB7AAB1830C71000CFE2EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LLA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lukas Lipka";
+				TargetAttributes = {
+					33CB7ACD1830C71000CFE2EF = {
+						TestTargetID = 33CB7AB21830C71000CFE2EF;
+					};
+				};
+			};
+			buildConfigurationList = 33CB7AAE1830C71000CFE2EF /* Build configuration list for PBXProject "LLARateLimiter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33CB7AAA1830C70F00CFE2EF;
+			productRefGroup = 33CB7AB41830C71000CFE2EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CB7AB21830C71000CFE2EF /* LLARateLimiter */,
+				33CB7ACD1830C71000CFE2EF /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CB7AB11830C71000CFE2EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CB7ACC1830C71000CFE2EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CB7AAF1830C71000CFE2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CB7AF51830C7EB00CFE2EF /* main.m in Sources */,
+				33CB7AF71830C7EB00CFE2EF /* LLARateLimiter.m in Sources */,
+				33CB7AF41830C7EB00CFE2EF /* LLAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CB7ACA1830C71000CFE2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CB7AFA1830C89A00CFE2EF /* LLARateLimiterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33CB7AD41830C71000CFE2EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CB7AB21830C71000CFE2EF /* LLARateLimiter */;
+			targetProxy = 33CB7AD31830C71000CFE2EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33CB7ADD1830C71000CFE2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33CB7ADE1830C71000CFE2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CB7AE01830C71000CFE2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/LLARateLimiter-Prefix.pch";
+				INFOPLIST_FILE = "Example/Resources/LLARateLimiter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33CB7AE11830C71000CFE2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/LLARateLimiter-Prefix.pch";
+				INFOPLIST_FILE = "Example/Resources/LLARateLimiter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33CB7AE31830C71000CFE2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLARateLimiter.app/LLARateLimiter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/LLARateLimiterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33CB7AE41830C71000CFE2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLARateLimiter.app/LLARateLimiter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Tests/LLARateLimiterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CB7AAE1830C71000CFE2EF /* Build configuration list for PBXProject "LLARateLimiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CB7ADD1830C71000CFE2EF /* Debug */,
+				33CB7ADE1830C71000CFE2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CB7ADF1830C71000CFE2EF /* Build configuration list for PBXNativeTarget "LLARateLimiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CB7AE01830C71000CFE2EF /* Debug */,
+				33CB7AE11830C71000CFE2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CB7AE21830C71000CFE2EF /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CB7AE31830C71000CFE2EF /* Debug */,
+				33CB7AE41830C71000CFE2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33CB7AAB1830C71000CFE2EF /* Project object */;
+}
