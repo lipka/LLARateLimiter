@@ -7,14 +7,15 @@
 //
 
 #import "LLAAppDelegate.h"
+#import "LLAExampleViewController.h"
 
 @implementation LLAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [LLAExampleViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }

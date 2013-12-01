@@ -17,6 +17,7 @@
 		33CB7AF51830C7EB00CFE2EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AEB1830C7EB00CFE2EF /* main.m */; };
 		33CB7AF71830C7EB00CFE2EF /* LLARateLimiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AF01830C7EB00CFE2EF /* LLARateLimiter.m */; };
 		33CB7AFA1830C89A00CFE2EF /* LLARateLimiterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AF31830C7EB00CFE2EF /* LLARateLimiterTests.m */; };
+		33CB7AFD1830C9A800CFE2EF /* LLAExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB7AFC1830C9A800CFE2EF /* LLAExampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		33CB7AF01830C7EB00CFE2EF /* LLARateLimiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARateLimiter.m; sourceTree = "<group>"; };
 		33CB7AF21830C7EB00CFE2EF /* LLARateLimiterTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LLARateLimiterTests-Info.plist"; sourceTree = "<group>"; };
 		33CB7AF31830C7EB00CFE2EF /* LLARateLimiterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARateLimiterTests.m; sourceTree = "<group>"; };
+		33CB7AFB1830C9A800CFE2EF /* LLAExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAExampleViewController.h; sourceTree = "<group>"; };
+		33CB7AFC1830C9A800CFE2EF /* LLAExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				33CB7AE71830C7EB00CFE2EF /* LLAAppDelegate.h */,
 				33CB7AE81830C7EB00CFE2EF /* LLAAppDelegate.m */,
+				33CB7AFB1830C9A800CFE2EF /* LLAExampleViewController.h */,
+				33CB7AFC1830C9A800CFE2EF /* LLAExampleViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CB7AF51830C7EB00CFE2EF /* main.m in Sources */,
+				33CB7AFD1830C9A800CFE2EF /* LLAExampleViewController.m in Sources */,
 				33CB7AF71830C7EB00CFE2EF /* LLARateLimiter.m in Sources */,
 				33CB7AF41830C7EB00CFE2EF /* LLAAppDelegate.m in Sources */,
 			);

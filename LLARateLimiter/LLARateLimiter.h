@@ -10,4 +10,8 @@
 
 @interface LLARateLimiter : NSObject
 
++ (BOOL)executeBlock:(void (^)())block name:(NSString *)name limit:(NSTimeInterval)limit;
++ (void)resetLimitForName:(NSString *)name;
++ (void)resetAllLimits;
+
 @end
