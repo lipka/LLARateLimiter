@@ -7,7 +7,7 @@
 //
 
 #import "LLAExampleViewController.h"
-#import "LLARateLimiter.h"
+#import "LLAPersistentRateLimiter.h"
 
 @interface LLAExampleViewController ()
 

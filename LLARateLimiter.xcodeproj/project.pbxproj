@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33AFBB59184C05CF00356C26 /* LLAPersistentRateLimiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AFBB58184C05CF00356C26 /* LLAPersistentRateLimiter.m */; };
 		33CB7AB71830C71000CFE2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7AB61830C71000CFE2EF /* Foundation.framework */; };
 		33CB7AB91830C71000CFE2EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7AB81830C71000CFE2EF /* CoreGraphics.framework */; };
 		33CB7ABB1830C71000CFE2EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB7ABA1830C71000CFE2EF /* UIKit.framework */; };
@@ -31,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33AFBB57184C05CF00356C26 /* LLAPersistentRateLimiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAPersistentRateLimiter.h; sourceTree = "<group>"; };
+		33AFBB58184C05CF00356C26 /* LLAPersistentRateLimiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAPersistentRateLimiter.m; sourceTree = "<group>"; };
+		33AFBB5A184CFED100356C26 /* LLARateLimiter+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLARateLimiter+Private.h"; sourceTree = "<group>"; };
 		33CB7AB31830C71000CFE2EF /* LLARateLimiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLARateLimiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CB7AB61830C71000CFE2EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33CB7AB81830C71000CFE2EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,8 +150,11 @@
 		33CB7AEE1830C7EB00CFE2EF /* LLARateLimiter */ = {
 			isa = PBXGroup;
 			children = (
+				33AFBB5A184CFED100356C26 /* LLARateLimiter+Private.h */,
 				33CB7AEF1830C7EB00CFE2EF /* LLARateLimiter.h */,
 				33CB7AF01830C7EB00CFE2EF /* LLARateLimiter.m */,
+				33AFBB57184C05CF00356C26 /* LLAPersistentRateLimiter.h */,
+				33AFBB58184C05CF00356C26 /* LLAPersistentRateLimiter.m */,
 			);
 			path = LLARateLimiter;
 			sourceTree = "<group>";
@@ -257,6 +264,7 @@
 				33CB7AF51830C7EB00CFE2EF /* main.m in Sources */,
 				33CB7AFD1830C9A800CFE2EF /* LLAExampleViewController.m in Sources */,
 				33CB7AF71830C7EB00CFE2EF /* LLARateLimiter.m in Sources */,
+				33AFBB59184C05CF00356C26 /* LLAPersistentRateLimiter.m in Sources */,
 				33CB7AF41830C7EB00CFE2EF /* LLAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
