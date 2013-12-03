@@ -1,4 +1,6 @@
-LLARateLimiter is a rate limiter with deligthful API.
+# LLARateLimiter
+
+LLARateLimiter is a rate limiter with deligthful API. You can use it for eg. to prevent the users of your app hitting your API endpoint too often, even though you are sure there is no new data available.
 
 ## Usage
 
